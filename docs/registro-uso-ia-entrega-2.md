@@ -30,21 +30,37 @@ Precisamos realizar as alterações de CSS conforme o enunciado do professor. Re
 
 ### Alteração 1
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
-
+- **Arquivo:** css/style.css
+- **O que a IA gerou:** --cor-primaria: #0b5394;
+--cor-primaria-escura: #083a69;
+- **O que foi alterado:** --cor-primaria: #1b6b3a;
+--cor-primaria-escura: #0f4526;
+- **Por que foi alterado:** O texto branco precisa de pelo menos 4,5:1 sobre a cor nova, que é o mínimo do PDF. Os valores estão numa variável só, então a troca vale para o cabeçalho, o rodapé, os títulos, os links e o botão de uma vez. Isso mostra o motivo de usar variáveis CSS.
 ### Alteração 2
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
+- **Arquivo:** css/style.css
+- **O que a IA gerou:** --largura-max: 75rem;
+- **O que foi alterado:** --largura-max: 80rem;
+- **Por que foi alterado:** 80rem equivale a 1280px, uma largura comum de notebook. Com 75rem sobravam faixas laterais nessa tela, e agora o site ocupa a largura inteira. Em telas maiores ele continua limitado e centralizado, o que evita linhas de texto muito longas.
 
 ### Alteração 3
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
+- **Arquivo:** css/style.css
+- **O que a IA gerou:** nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+- **O que foi alterado:** nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espaco-1) var(--espaco-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+- **Por que foi alterado:** Antes, os 4 links ocupavam uma coluna e o cabeçalho ficava com cerca de 260px de altura no celular. Agora os links ficam lado a lado e quebram só se faltar espaço, o que libera mais tela para o conteúdo. A altura de toque dos links não muda, porque o padding do nav a continua o mesmo.
