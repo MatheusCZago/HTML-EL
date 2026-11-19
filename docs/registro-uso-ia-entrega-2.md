@@ -10,19 +10,20 @@ Ferramenta utilizada: Claude (Anthropic), modelo Claude Sonnet 5.5, por meio do 
 
 | Arquivo | Apoio de IA |
 |---|---|
-| `css/style.css` | Escrito integralmente pela IA: variáveis em `:root`, Flexbox no cabeçalho, menu e formulário, Grid na listagem de produtos e no layout da página, e media queries mobile-first para 768px e 1200px. |
-| `index.html`, `categoria.html`, `produto.html`, `contato.html` | Alterações feitas pela IA sobre o HTML da Entrega 1: `<meta name="viewport">`, `<link>` para o CSS, classe `skip-link` no skip link, classe `card` nos produtos, classe `formulario` no formulário e, em `categoria.html`, um `<div class="produtos">` envolvendo os cards. |
+| `css/style.css` | IA ajudou em todos os commits e na escrita; variáveis em `:root`, Flexbox no cabeçalho, menu e formulário, Grid na listagem de produtos e no layout da página, e media queries mobile-first para 768px e 1200px. |
+| `index.html`, `categoria.html`, `produto.html`, `contato.html` | IA ajudou em todos os commits e na escrita: `<meta name="viewport">`, `<link>` para o CSS, classe `skip-link` no skip link, classe `card` nos produtos, classe `formulario` no formulário e, em `categoria.html`, um `<div class="produtos">` envolvendo os cards. |
 
-Todo o CSS desta entrega foi escrito com apoio de IA. O conteúdo do HTML, incluindo as alterações feitas pelo estudante na Entrega 1, foi mantido. A IA também executou os comandos de Git desta entrega: criação da branch `entrega-2`, commits e publicação.
+Todo o CSS desta entrega foi escrito com apoio de IA. O conteúdo do HTML, incluindo as alterações feitas foi mantido. A IA também executou os comandos de Git desta entrega: criação da branch `entrega-2`, commits e publicação.
 
 ## 2. Prompts Utilizados (na íntegra)
 
 ### Prompt 1
 
-Enviado junto com uma imagem do enunciado da Entrega 2: "Aplicar os estilos utilizando CSS: aplicar estilos utilizando CSS, aplicar responsividade (flexbox, grid, media queries). Formato de entrega: enviar o link do repositório GitHub; para esta entrega use o nome da branch como entrega-2".
+
 
 ```text
-Agora isso, só faça o básico, apenas para a entrega, nada gigante, aplicativo para venda, apenas algo suficiente para faculdade. Mesmo pq ainda nem é a última entrega
+Aplicar os estilos utilizando CSS: aplicar estilos utilizando CSS, aplicar responsividade (flexbox, grid, media queries). Formato de entrega: enviar o link do repositório GitHub; para esta entrega use o nome da branch como entrega-2.
+Precisamos realizar as alterações de CSS conforme o enunciado do professor. Reveja o código que foi enviado e veja se está dentro dos parâmetros. Obrigado!
 ```
 
 ## 3. Revisão Técnica (mínimo de 3 alterações)
