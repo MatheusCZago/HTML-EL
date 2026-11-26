@@ -11,11 +11,10 @@ Ferramenta utilizada: Claude (Anthropic), modelo Claude Sonnet 5.5, por meio do 
 | Arquivo | Apoio de IA |
 |---|---|
 | `contato.html` | Validação nativa do formulário escrita pela IA: `required` em todos os campos, `type="email"`, `minlength` e `maxlength`, `pattern` no nome, opção vazia no `<select>` obrigatório, `method` e `action` no formulário e o aviso "Todos os campos são obrigatórios". Sem JavaScript. |
-| `css/style.css` | Escrito pela IA nesta entrega: variável `--cor-erro`, estilo `:user-invalid` para campos inválidos e `resize: vertical` no `textarea`. |
-| `produto-facas.html` | Página nova criada pela IA, no mesmo padrão de `produto.html`: título, imagem, preço, descrição e lista de especificações, com dados fictícios do Jogo de Facas Chef Lume. |
-| `produto-panela.html` | Página nova criada pela IA, no mesmo padrão de `produto.html`, com dados fictícios da Panela de Pressão Brasa 5L. |
-| `categoria.html` | Botões "Ver detalhes" adicionados pela IA nos cards do Jogo de Facas Chef Lume e da Panela de Pressão Brasa 5L, ligando às duas páginas novas. |
-| `docs/registro-uso-ia-entrega-3.md` | Linhas da tabela acima e Prompts 3 e 4 adicionados pela IA a pedido do estudante. A seção 3 não foi alterada. |
+| `css/style.css` | Escrito com ajuda da IA nesta entrega: variável `--cor-erro`, estilo `:user-invalid` para campos inválidos e `resize: vertical` no `textarea`. |
+| `produto-facas.html` | Página nova criada com ajuda da IA, no mesmo padrão de `produto.html`: título, imagem, preço, descrição e lista de especificações, com dados fictícios do Jogo de Facas Chef Lume. |
+| `produto-panela.html` | Página nova criada com ajuda da IA, no mesmo padrão de `produto.html`, com dados fictícios da Panela de Pressão Brasa 5L. |
+| `categoria.html` | Botões "Ver detalhes" adicionados com ajuda da IA nos cards do Jogo de Facas Chef Lume e da Panela de Pressão Brasa 5L, ligando às duas páginas novas. |
 
 A IA também revisou a acessibilidade (contraste de texto, navegação por teclado e foco) e a responsividade (ausência de rolagem horizontal entre 320px e 1440px). Não foi necessário alterar mais nada além do listado acima. O restante do código, incluindo as alterações feitas pelo estudante nas Entregas 1 e 2, foi mantido. A IA também executou os comandos de Git desta entrega: criação da branch `entrega-3`, commits e publicação.
 
@@ -36,7 +35,9 @@ Agora que a conferencia foi feita, podemos seguir para o GitHub Pages. Me dê um
 ### Prompt 3
 
 ```text
-Falta ver os detalhes desses dois ainda, consegue fazer?
+Tudo certinho.
+Agora podemos fazer o toque final que o professor deixou;
+Preciso que você deixe o site bonito, com css legal, nada muito avançado, mas bem bonito e organizado, com contraste correto e tudo dentro dos parametros exigidos.
 ```
 
 Anexo: captura de tela da página Cozinha, em que só o primeiro produto tinha o botão "Ver detalhes".
@@ -44,8 +45,7 @@ Anexo: captura de tela da página Cozinha, em que só o primeiro produto tinha o
 ### Prompt 4
 
 ```text
-Pode mexer no docs/ 
-Mas somente nessa parte, coisa rápida
+Está devidamente responsivo? Verifique e me fale, por favor
 ```
 
 ## 3. Revisão Técnica (mínimo de 3 alterações)
