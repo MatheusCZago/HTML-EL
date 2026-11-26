@@ -20,7 +20,13 @@ A IA também revisou a acessibilidade (contraste de texto, navegação por tecla
 ### Prompt 1
 
 ```text
-Pode finalizar, fazer a última entrega. Depois vou precisa de sua ajuda para subir no Pages do GitHub
+Estamos na parte final. Vou precisar que você confira se os códigos estão corretos.
+```
+
+### Prompt 2
+
+```text
+Agora que a conferencia foi feita, podemos seguir para o GitHub Pages. Me dê um passo a passo breve para que eu publique corretamente e como devo entregar ao professor.
 ```
 
 ## 3. Revisão Técnica (mínimo de 3 alterações)
