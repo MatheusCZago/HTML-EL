@@ -1,4 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
-  <rect width="320" height="200" fill="#e6e6e6"/>
-  <text x="160" y="105" font-family="sans-serif" font-size="20" text-anchor="middle" fill="#333333">Facas Chef Lume</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#f7efe0"/>
+  <circle cx="90" cy="80" r="100" fill="#efe1c6"/>
+  <circle cx="420" cy="270" r="70" fill="#efe1c6"/>
+  <ellipse cx="240" cy="290" rx="150" ry="12" fill="#5b3a29" opacity="0.18"/>
+
+  <!-- bloco de madeira -->
+  <rect x="130" y="150" width="220" height="136" rx="14" fill="#b9824f"/>
+  <rect x="142" y="164" width="196" height="110" rx="8" fill="#c99564"/>
+  <path d="M150 190 H330 M150 218 H330 M150 246 H330" fill="none" stroke="#a8723f" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- faca do chef -->
+  <rect x="156" y="146" width="44" height="10" rx="3" fill="#c5ced6"/>
+  <rect x="158" y="52" width="40" height="98" rx="12" fill="#2b3640"/>
+  <circle cx="178" cy="78" r="4" fill="#c5ced6"/>
+  <circle cx="178" cy="112" r="4" fill="#c5ced6"/>
+
+  <!-- faca utilitária -->
+  <rect x="220" y="146" width="40" height="10" rx="3" fill="#c5ced6"/>
+  <rect x="222" y="76" width="36" height="74" rx="11" fill="#2b3640"/>
+  <circle cx="240" cy="98" r="4" fill="#c5ced6"/>
+  <circle cx="240" cy="126" r="4" fill="#c5ced6"/>
+
+  <!-- faca de legumes -->
+  <rect x="282" y="146" width="36" height="10" rx="3" fill="#c5ced6"/>
+  <rect x="284" y="100" width="32" height="50" rx="10" fill="#2b3640"/>
+  <circle cx="300" cy="124" r="4" fill="#c5ced6"/>
 </svg>
