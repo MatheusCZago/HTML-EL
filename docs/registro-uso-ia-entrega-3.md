@@ -33,21 +33,23 @@ Agora que a conferencia foi feita, podemos seguir para o GitHub Pages. Me dê um
 
 ### Alteração 1
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
+- **Arquivo:** contato.html
+- **O que a IA gerou:** <textarea id="mensagem" name="mensagem" rows="5"
+          required minlength="10" maxlength="500"></textarea>
+- **O que foi alterado:** <textarea id="mensagem" name="mensagem" rows="5"
+          required minlength="20" maxlength="500"></textarea>
+- **Por que foi alterado:** Com 10 caracteres, "oi, tudo bem?" já passa e não diz nada sobre o produto. Com 20, a pessoa precisa escrever o suficiente para a loja conseguir responder.
 
 ### Alteração 2
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
+- **Arquivo:** css/style.css
+- **O que a IA gerou:** --cor-erro: #b42318;
+- **O que foi alterado:** --cor-erro: #9b1c1c;
+- **Por que foi alterado:** A variável controla a borda e a sombra de todos os campos inválidos de uma vez. Um vermelho mais escuro destaca melhor o campo errado do borda cinza normal (--cor-campo), o que ajuda quem tem baixa visão.
 
 ### Alteração 3
 
-- **Arquivo:** _(preencher)_
-- **O que a IA gerou:** _(preencher)_
-- **O que foi alterado:** _(preencher)_
-- **Por que foi alterado:** _(preencher)_
+- **Arquivo:** contato.html
+- **O que a IA gerou:** <p>Todos os campos são obrigatórios.</p>
+- **O que foi alterado:** <p>Todos os campos são obrigatórios. Se algo estiver incorreto, o navegador indica qual campo corrigir.</p>
+- **Por que foi alterado:** Quem usa leitor de tela escuta esse texto antes do formulário. Dizer o que acontece em caso de erro evita surpresa quando o envio é bloqueado e o foco volta para um campo.
