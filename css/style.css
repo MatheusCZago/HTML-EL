@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Casa Viva — Catálogo de Produtos | Entrega 2 (estilo e responsividade)
+   Casa Viva — Catálogo de Produtos | CSS (Entregas 2 e 3)
 
    Abordagem: mobile-first.
    O estilo base serve o celular (até ~480px). As media queries com
@@ -23,6 +23,7 @@
   --cor-borda: #b8c4d1;
   --cor-campo: #6b7c8f;
   --cor-foco: #b45309;
+  --cor-erro: #b42318;
 
   --espaco-1: 0.5rem;
   --espaco-2: 1rem;
@@ -212,6 +213,18 @@ textarea {
   background: var(--cor-fundo);
   color: inherit;
   font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Campo preenchido de forma inválida (validação nativa do HTML5) */
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+  border-color: var(--cor-erro);
+  box-shadow: 0 0 0 1px var(--cor-erro);
 }
 
 button {
